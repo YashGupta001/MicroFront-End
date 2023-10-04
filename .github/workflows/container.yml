@@ -14,11 +14,13 @@ defaults:
 jobs:
   build:
     runs-on: ubuntu-latest
-    with:
-      registry-url: https://registry.npmjs.org/
 
     steps:
       - uses: actions/checkout@v2
+
+      with:
+        registry-url: https://registry.npmjs.org/
+        
       - run: npm install
       - run: npm run build
 
