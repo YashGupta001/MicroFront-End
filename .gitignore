@@ -1,5 +1,10 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+
+node_modules
+dist
+.DS_Store
+
 # dependencies
 /Auth/node_modules
 /Container/node_modules
@@ -11,13 +16,6 @@
 /Marketing/package-lock.json
 /Auth/package-lock.json
 /Container/package-lock.json
-
-
-/FrontEnd.pdf
-/Javascript-Interview-Guide.pdf
-
-
-
 
 
 # production
@@ -33,15 +31,4 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-    artifacts
-    node_modules
-    
-
-    artifacts
-    node_modules
-    
-
-    artifacts
-    node_modules
     
