@@ -12,15 +12,6 @@ dist
 /Marketing/node_modules
 
 
-/Dashboard/package-lock.json
-/Marketing/package-lock.json
-/Auth/package-lock.json
-/Container/package-lock.json
-
-
-# production
-/build
-
 # misc
 .DS_Store
 .env.local
